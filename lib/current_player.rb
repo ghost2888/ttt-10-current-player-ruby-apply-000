@@ -1,6 +1,6 @@
-def turn_count(array)
+def turn_count(board)
   counter = 0
-  array.each do |num| 
+  board.each do |num| 
     if num == "x" || num == "O"
       counter += 1 
     end
