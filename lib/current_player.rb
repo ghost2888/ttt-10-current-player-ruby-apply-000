@@ -1,6 +1,7 @@
 def turn_count(array)
   counter = 0
-  array.each do |num|
+  array.each do |num| 
+    num += 1 
     counter += 1 
   end
   return counter
