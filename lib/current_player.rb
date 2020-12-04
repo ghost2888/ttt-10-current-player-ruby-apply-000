@@ -1,9 +1,10 @@
 def turn_count(array)
   counter = 0
   array.each do |num| 
-    counter += 1 
+    if num == "x" || num == "O"
+      counter += 1 
+    end
   end
-  return counter
 end
 
 def current_player(arr)
